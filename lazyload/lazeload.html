@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .image-item {
+      display: block;
+      margin-bottom: 50px;
+      height: 200px;
+      /* 一定记得设置图片高度 */
+    }
+    .loaded {
+      animation: loadPic 1s ease;
+    }
+    @keyframes loadPic {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img id='test1' src="" class="image-item" lazyload="true"
+    data-original="http://pic1.win4000.com/wallpaper/b/546441f1d83c2.jpg" />
+  <img id='test2' src="" class="image-item" lazyload="true"
+    data-original="http://www.officedoyen.com/uploads/allimg/140929/1-140929230255201.jpg" />
+  <img id='test3' src="" class="image-item" lazyload="true"
+    data-original="http://b.zol-img.com.cn/desk/bizhi/image/4/960x600/1393553860400.jpg" />
+  <img id='test4' src="" class="image-item" lazyload="true"
+    data-original="http://pic1.win4000.com/wallpaper/2018-01-09/5a547c0cb840c.jpg" />
+  <img id='test5' src="" class="image-item" lazyload="true"
+    data-original="http://image.biaobaiju.com/uploads/20180802/00/1533139825-SvFkOmnxrA.jpg" />
+  <img id='test6' src="" class="image-item" lazyload="true"
+    data-original="http://pic1.win4000.com/wallpaper/b/546441f1d83c2.jpg" />
+  <img id='test7' src="" class="image-item" lazyload="true"
+    data-original="http://www.officedoyen.com/uploads/allimg/140929/1-140929230255201.jpg" />
+  <img id='test8' src="" class="image-item" lazyload="true"
+    data-original="http://b.zol-img.com.cn/desk/bizhi/image/4/960x600/1393553860400.jpg" />
+  <img id='test9' src="" class="image-item" lazyload="true"
+    data-original="http://pic1.win4000.com/wallpaper/2018-01-09/5a547c0cb840c.jpg" />
+  <img id='test10' src="" class="image-item" lazyload="true"
+    data-original="http://pic1.win4000.com/wallpaper/2018-01-09/5a547c0cb840c.jpg" />
+  <img id='test11' src="" class="image-item" lazyload="true"
+    data-original="http://pic1.win4000.com/wallpaper/b/546441f1d83c2.jpg" />
+  <img id='test12' src="" class="image-item" lazyload="true"
+    data-original="http://www.officedoyen.com/uploads/allimg/140929/1-140929230255201.jpg" />
+</body>
+<script src="./index.js"></script>
+</html>
