@@ -25,6 +25,7 @@ function insert(el) {
   function createObserver() {
     const options = {
       root: null,
+      // 阈值
       threshold: '0'
     };
 
